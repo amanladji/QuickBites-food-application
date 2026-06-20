@@ -1,0 +1,12 @@
+target/
+*.class
+*.jar
+*.war
+*.log
+server.log
+server.err
+*.iml
+.idea/
+.vscode/
+*.tmp
+temp/

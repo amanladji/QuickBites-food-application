@@ -1,0 +1,144 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="QuickBites &mdash; Order food from the best restaurants near you. Fresh, fast, and delicious.">
+  <title>QuickBites &mdash; Food Delivery</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Nunito+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="/" class="header-logo">
+      <span class="header-logo-icon">
+        <svg viewBox="0 0 24 24"><rect x="3" y="10" width="4" height="12" rx="1"/><rect x="10" y="4" width="4" height="18" rx="1"/><rect x="17" y="7" width="4" height="15" rx="1"/></svg>
+      </span>
+      <span class="header-logo-text">QuickBites</span>
+    </a>
+    <nav class="header-nav">
+      <a href="/" class="active">HOME</a>
+      <a href="restaurants">RESTAURANTS</a>
+      <a href="login.jsp">SIGN IN</a>
+      <a href="cart">CART</a>
+    </nav>
+    <a href="restaurants" class="btn-header">Get Started <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+  </div>
+</header>
+
+<main>
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-inner">
+      <h1 class="hero-display">
+        <span class="highlight-green">Fresh Food</span><br>
+        <span class="highlight-graphite">delivered with QuickBites</span>
+      </h1>
+      <p class="hero-sub">Order from the best restaurants in your area &mdash; hot, fresh, and on time.</p>
+      <a href="restaurants" class="btn-app-store">
+        <svg viewBox="0 0 24 24"><path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/></svg>
+        Start Ordering
+      </a>
+      <div class="mockup-row">
+        <img class="mockup" src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=260&h=520&fit=crop" alt="Food app screen" width="260" height="520" loading="lazy">
+        <img class="mockup" src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=260&h=520&fit=crop" alt="Food app screen" width="260" height="520" loading="lazy">
+        <img class="mockup" src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=260&h=520&fit=crop" alt="Food app screen" width="260" height="520" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <!-- Press Logos -->
+  <section class="press-section">
+    <div class="container">
+      <p class="press-heading">As Featured By</p>
+      <div class="press-grid">
+        <span class="press-item">MacStories</span>
+        <span class="press-item">iMore</span>
+        <span class="press-item">9TO5Mac</span>
+        <span class="press-item">POPSUGAR</span>
+        <span class="press-item">Good Housekeeping</span>
+        <span class="press-item">Prevention</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Feature: Browse -->
+  <section class="section section-fog" id="features">
+    <div class="container">
+      <div class="section-header">
+        <h2><span class="accent-orange">Browse</span> <span class="accent-graphite">top restaurants</span></h2>
+        <p>Discover new flavours and old favourites &mdash; all in one place.</p>
+      </div>
+      <div class="restaurant-grid" style="max-width:800px;margin:0 auto;">
+        <a href="menu?restaurantId=1" class="restaurant-card">
+          <img class="restaurant-card-image" src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=400&h=300&fit=crop" alt="The Spice Garden" width="400" height="300" loading="lazy">
+          <div class="restaurant-card-body">
+            <span class="restaurant-card-name">The Spice Garden</span>
+            <span class="restaurant-card-cuisine">Indian &middot; Mughlai &middot; Tandoori</span>
+            <span class="restaurant-card-meta">&#9733; 4.9 &middot; 25 mins</span>
+          </div>
+        </a>
+        <a href="menu?restaurantId=2" class="restaurant-card">
+          <img class="restaurant-card-image" src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=400&h=300&fit=crop" alt="Bella Italia" width="400" height="300" loading="lazy">
+          <div class="restaurant-card-body">
+            <span class="restaurant-card-name">Bella Italia</span>
+            <span class="restaurant-card-cuisine">Italian &middot; Continental</span>
+            <span class="restaurant-card-meta">&#9733; 4.8 &middot; 30 mins</span>
+          </div>
+        </a>
+        <a href="menu?restaurantId=3" class="restaurant-card">
+          <img class="restaurant-card-image" src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=400&h=300&fit=crop" alt="Dragon Palace" width="400" height="300" loading="lazy">
+          <div class="restaurant-card-body">
+            <span class="restaurant-card-name">Dragon Palace</span>
+            <span class="restaurant-card-cuisine">Chinese &middot; Thai &middot; Pan-Asian</span>
+            <span class="restaurant-card-meta">&#9733; 4.7 &middot; 35 mins</span>
+          </div>
+        </a>
+      </div>
+      <div class="text-center mt-40">
+        <a href="restaurants" class="btn btn-primary">View All Restaurants</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Feature: Order -->
+  <section class="section section-white">
+    <div class="container">
+      <div class="section-header">
+        <h2><span class="accent-green">Order</span> <span class="accent-graphite">in seconds</span></h2>
+        <p>Add items to your cart, checkout in a tap, and track your delivery live.</p>
+      </div>
+      <div class="text-center">
+        <a href="restaurants" class="btn btn-primary btn-lg">Start Ordering</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Download CTA -->
+  <section class="section section-fog">
+    <div class="container">
+      <div class="cta-card">
+        <h2>Ready to eat?</h2>
+        <p>Get started with QuickBites &mdash; browse menus, order food, and enjoy.</p>
+        <a href="restaurants" class="btn btn-primary">Get Started Today <svg viewBox="0 0 24 24" style="width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-links">
+    <a href="restaurants">RESTAURANTS</a>
+    <a href="login.jsp">SIGN IN</a>
+    <a href="register.jsp">REGISTER</a>
+    <a href="cart">CART</a>
+  </div>
+  <p>QuickBites &mdash; fresh food delivered</p>
+  <p>&copy; 2026 QuickBites. All rights reserved.</p>
+</footer>
+</body>
+</html>
